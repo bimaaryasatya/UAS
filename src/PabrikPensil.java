@@ -13,7 +13,7 @@ public class PabrikPensil {
 
         Random random = new Random();
         for (int i = 0; i < 20000; i++) {
-            int warnaRandom = random.nextInt(6);
+            int warnaRandom = random.nextInt(7);
             switch (warnaRandom) {
                 case 0:
                     Biru.add(1);
@@ -43,34 +43,34 @@ public class PabrikPensil {
         int Jumlah_Hitam = Hitam.size();
         int Jumlah_Ungu = Ungu.size();
 
-        int blueMax = 0;
-        int blueMin = Integer.MAX_VALUE;
-        int redMax = 0;
-        int redMin = Integer.MAX_VALUE;
-        int greenMax = 0;
-        int greenMin = Integer.MAX_VALUE;
-        int orangeMax = 0;
-        int orangeMin = Integer.MAX_VALUE;
-        int blackMax = 0;
-        int blackMin = Integer.MAX_VALUE;
-        int purpleMax = 0;
-        int purpleMin = Integer.MAX_VALUE;
+        int biruMax = 0;
+        int biruMin = Integer.MAX_VALUE;
+        int merahMax = 0;
+        int merahMin = Integer.MAX_VALUE;
+        int hijauMax = 0;
+        int hijauMin = Integer.MAX_VALUE;
+        int oranyeMax = 0;
+        int oranyeMin = Integer.MAX_VALUE;
+        int hitamMax = 0;
+        int hitamMin = Integer.MAX_VALUE;
+        int unguMax = 0;
+        int unguMin = Integer.MAX_VALUE;
 
         for (int i = 0; i < Biru.size(); i++) {
-            if (Biru.get(i) > blueMax) {
-                blueMax = Biru.get(i);
+            if (Biru.get(i) > biruMax) {
+                biruMax = Biru.get(i);
             }
-            if (Biru.get(i) < blueMin) {
-                blueMin = Biru.get(i);
+            if (Biru.get(i) < biruMin) {
+                biruMin = Biru.get(i);
             }
         }
 
         for (int i = 0; i < Merah.size(); i++) {
-            if (Merah.get(i) > redMax) {
-                redMax = Merah.get(i);
+            if (Merah.get(i) > merahMax) {
+                merahMax = Merah.get(i);
             }
-            if (Merah.get(i) < redMin) {
-                redMin = Merah.get(i);
+            if (Merah.get(i) < merahMin) {
+                merahMin = Merah.get(i);
             }
         }
         System.out.println("Total Produksi Setiap Warna: ");
