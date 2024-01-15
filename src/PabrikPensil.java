@@ -73,4 +73,13 @@ public class PabrikPensil {
                 redMin = Merah.get(i);
             }
         }
+        System.out.println("Total Produksi Setiap Warna: ");
+        System.out.println("Biru: " + Jumlah_Biru);
+        System.out.println("Merah: " + Jumlah_Merah);
+        System.out.println("Hijau: " + Jumlah_Hijau);
+        System.out.println("Oranye: " + Jumlah_Oranye);
+        System.out.println("Hitam: " + Jumlah_Hitam);
+        System.out.println("Ungu: " + Jumlah_Ungu);
+
     }
+}
